@@ -31,6 +31,8 @@
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+
+    left: 60%;
 }
 .title{
     font-size: 28px;
@@ -86,8 +88,10 @@
     color: #58afa5;
     transition: 0.5s ease;
 }
+/* Fist content*/
 .first-content{
     display: flex;
+    display: none;
 }
 .first-colum{
     text-align: center;
@@ -130,6 +134,7 @@
     display: flex;
     flex-direction: column;
     width: 55%;
+    text-align: center;
 }
 .form input{
     height: 45px;
@@ -147,7 +152,19 @@
     align-items: center;
     margin: 8px;
 }
+/* second content*/
 .second-content{
     position: absolute;
-    display: none;
+    display: flex;
+}
+.second-content .first-colum{
+    order: 2;
+}
+.second-content .second-colum{
+    order: 1;
+}
+.forgot-password{
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
 }
