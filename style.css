@@ -161,6 +161,9 @@
     align-items: center;
     margin: 8px;
 }
+.label-input input:focus{
+    outline: none;
+}
 /* second content*/
 .second-content{
     position: absolute;
